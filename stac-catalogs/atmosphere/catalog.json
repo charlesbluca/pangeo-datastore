@@ -1,0 +1,57 @@
+{
+    "id": "atmosphere",
+    "stac_version": "1.0.0-beta.2",
+    "description": "Pangeo Atmospheric Science Dataset Catalog",
+    "links": [
+        {
+            "rel": "root",
+            "href": "..\\catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": ".\\gmet_v1\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": ".\\trmm_3b42rt\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": ".\\sam_ngaqua_qobs_eqx_3d\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": ".\\sam_ngaqua_qobs_eqx_2d\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": ".\\gpcp_cdr_daily_v1_3\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": ".\\wrf50_erai\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": ".\\era5_hourly_reanalysis_single_levels_sa\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": ".\\nasa_ccmp_wind_vectors\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "..\\catalog.json",
+            "type": "application/json"
+        }
+    ]
+}

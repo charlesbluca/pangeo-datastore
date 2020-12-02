@@ -1,0 +1,70 @@
+{
+    "id": "MITgcm_channel_flatbottom_02km_run01_phys_snap15D",
+    "stac_version": "1.0.0-beta.2",
+    "description": "MITgcm channel simulations with flat bottom at 2km resolution physics field snapshots every 15 days\n",
+    "links": [
+        {
+            "rel": "root",
+            "href": "..\\catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "license",
+            "href": "https://http://example.com",
+            "type": "text/html",
+            "title": "Replace this link and title with your own license"
+        },
+        {
+            "rel": "parent",
+            "href": "..\\catalog.json",
+            "type": "application/json"
+        }
+    ],
+    "stac_extensions": [
+        "collection-assets"
+    ],
+    "assets": {
+        "zmetadata": {
+            "href": "https://storage.googleapis.com/pangeo-ldeo-mitgcm/snap15d/.zmetadata",
+            "description": "Consolidated metadata file for Zarr store",
+            "type": "application/json",
+            "roles": [
+                "metadata",
+                "zarr-consolidated-metadata"
+            ]
+        }
+    },
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -180,
+                    -90,
+                    180,
+                    90
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "0001-01-01T00:00:00Z",
+                    "9999-12-31T23:59:59.999999Z"
+                ]
+            ]
+        }
+    },
+    "license": "proprietary",
+    "providers": [
+        {
+            "name": "Add in links/titles for providers of any of the following roles",
+            "roles": [
+                "producer",
+                "licensor",
+                "provessor",
+                "host"
+            ],
+            "url": "https://example.com"
+        }
+    ]
+}
