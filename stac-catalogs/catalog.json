@@ -1,0 +1,37 @@
+{
+    "id": "master",
+    "stac_version": "1.0.0-beta.2",
+    "description": "Pangeo Master Data Catalog",
+    "links": [
+        {
+            "rel": "root",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\atmosphere\\catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\climate\\catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\hydro\\catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "self",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\catalog.json",
+            "type": "application/json"
+        }
+    ]
+}

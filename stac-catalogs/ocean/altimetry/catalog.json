@@ -1,0 +1,127 @@
+{
+    "id": "altimetry",
+    "stac_version": "1.0.0-beta.2",
+    "description": "Radar Altimetry Products",
+    "links": [
+        {
+            "rel": "root",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\al\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\alg\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\c2\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\e1\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\e1g\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\e2\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\en\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\enn\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\g2\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\h2\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\j1\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\j1g\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\j1n\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\j2\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\j2g\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\j2n\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\j3\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\s3a\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\s3b\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\tp\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\tpn\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "self",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\altimetry\\catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\catalog.json",
+            "type": "application/json"
+        }
+    ]
+}

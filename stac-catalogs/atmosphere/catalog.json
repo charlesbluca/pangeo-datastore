@@ -1,0 +1,62 @@
+{
+    "id": "atmosphere",
+    "stac_version": "1.0.0-beta.2",
+    "description": "Pangeo Atmospheric Science Dataset Catalog",
+    "links": [
+        {
+            "rel": "root",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\atmosphere\\gmet_v1\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\atmosphere\\trmm_3b42rt\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\atmosphere\\sam_ngaqua_qobs_eqx_3d\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\atmosphere\\sam_ngaqua_qobs_eqx_2d\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\atmosphere\\gpcp_cdr_daily_v1_3\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\atmosphere\\wrf50_erai\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\atmosphere\\era5_hourly_reanalysis_single_levels_sa\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\atmosphere\\nasa_ccmp_wind_vectors\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "self",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\atmosphere\\catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\catalog.json",
+            "type": "application/json"
+        }
+    ]
+}

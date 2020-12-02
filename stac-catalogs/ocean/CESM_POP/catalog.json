@@ -1,0 +1,32 @@
+{
+    "id": "CESM_POP",
+    "stac_version": "1.0.0-beta.2",
+    "description": "NCAR CESM Global High Resolution Ocean Model Fields",
+    "links": [
+        {
+            "rel": "root",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\CESM_POP\\CESM_POP_hires_control\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\CESM_POP\\CESM_POP_hires_RCP8_5\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "self",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\CESM_POP\\catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\catalog.json",
+            "type": "application/json"
+        }
+    ]
+}

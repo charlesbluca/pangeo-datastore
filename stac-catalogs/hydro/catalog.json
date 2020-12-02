@@ -1,0 +1,72 @@
+{
+    "id": "hydro",
+    "stac_version": "1.0.0-beta.2",
+    "description": "Pangeo Hydrology Dataset Catalog",
+    "links": [
+        {
+            "rel": "root",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\hydro\\cgiar_pet\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\hydro\\hydrosheds_dir\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\hydro\\hydrosheds_acc\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\hydro\\hydrosheds_dem\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\hydro\\soil_grids_single_level\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\hydro\\soil_grids_multi_level\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\hydro\\camels\\catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\hydro\\nhd_catchment_attributes\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\hydro\\nldas_hru_forcing\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\hydro\\usgs_streamflow_observations\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "self",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\hydro\\catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\catalog.json",
+            "type": "application/json"
+        }
+    ]
+}

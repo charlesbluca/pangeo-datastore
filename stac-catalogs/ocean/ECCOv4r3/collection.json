@@ -1,0 +1,75 @@
+{
+    "id": "ECCOv4r3",
+    "stac_version": "1.0.0-beta.2",
+    "description": "Estimating the Circulation and Climate of the Ocean (ECCO) State Estimate Version 4 Release 3",
+    "links": [
+        {
+            "rel": "root",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "license",
+            "href": "https://http://example.com",
+            "type": "text/html",
+            "title": "Replace this link and title with your own license"
+        },
+        {
+            "rel": "self",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\ECCOv4r3\\collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore/master/stac-catalogs\\ocean\\catalog.json",
+            "type": "application/json"
+        }
+    ],
+    "stac_extensions": [
+        "collection-assets"
+    ],
+    "assets": {
+        "zmetadata": {
+            "href": "https://storage.googleapis.com/pangeo-ecco-eccov4r3/eccov4r3/.zmetadata",
+            "description": "Consolidated metadata file for Zarr store",
+            "type": "application/json",
+            "roles": [
+                "metadata",
+                "zarr-consolidated-metadata"
+            ]
+        }
+    },
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -180,
+                    -90,
+                    180,
+                    90
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "0001-01-01T00:00:00Z",
+                    "9999-12-31T23:59:59.999999Z"
+                ]
+            ]
+        }
+    },
+    "license": "proprietary",
+    "providers": [
+        {
+            "name": "Add in links/titles for providers of any of the following roles",
+            "roles": [
+                "producer",
+                "licensor",
+                "provessor",
+                "host"
+            ],
+            "url": "https://example.com"
+        }
+    ]
+}
